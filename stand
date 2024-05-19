@@ -19,7 +19,7 @@ getgenv().Accounts = {OWNER = 'xk5ng', STAND = "4k7nz"} This is just the example
 
 --\\-- Accounts --//--
 
-getgenv().Accounts = {OWNER = 'MellsCult', STAND = "keraxious"}
+getgenv().Accounts = {OWNER = '1NTERNETBLONDE', STAND = "Jessica459812"}
 
 --\\-- Stand-Configuration --//--
 
@@ -47,14 +47,14 @@ getgenv().StandConfig = {
     ['TPMode'] = "Cart", --[Knock | Cart]
     ['Smoothing'] = false, --[true | false] If [false] Less Delays And if [true] The Stand Movement Will Smooth But Kinda Delayed
     ['CustomPrefix'] = '.', --[ ! | / | . | ? | > | < | $ | ; | : ] Custom target prefix
-    ['CustomSummon'] = 'Nicki!', --Custom [Summon!] Text
+    ['CustomSummon'] = 'Summon!', --Custom [Summon!] Text
     ['SummonPoses'] = 'Pose1', --[false | Pose1 | Pose2 | Pose3]
     ['LowGraphics'] = true, --[true | false] Turns graphics down so your stand doesnt lag too much
     ['AntiStomp'] = true, --[true | false] The Stand Will Cannot Be Stomped Or Grabbed
     ['CustomNAME'] = 'Master', --Custom Name Text Default Is [Master] Example Of it 'Im Here, Master'
     ['Hidescreen'] = false, --[true | false] If [true] You WIll See White Blank Screen But The Performance Is Gonna Be Good]
     ['ChatCmds'] = true, --[true | false] Chatted When You Use Some Command
-    ['MaskMode'] = 'Breathing', --[Surgeon | Paintball | Skull | Pumpkin | Hockey | Ninja | Riot | Breathing] The Stand Will Buy The Mask You Selected
+    ['MaskMode'] = 'Surgeon', --[Surgeon | Paintball | Skull | Pumpkin | Hockey | Ninja | Riot | Breathing] The Stand Will Buy The Mask You Selected
     ['AutoMask'] = true, --[true | false] Auto Buy Mask When The St    and Respawn
     ['FPSCAP'] = false, --[false | 'NUMBER'] This is so your main account gets the most fps (MAXED IS 60, SUGGEST 30 FPS ON STANDS)
     ['Msg'] = 'BARBS UNITE!', --When You Say [/e msg] It Makes All The Alts Say That Message
