@@ -1,14 +1,3 @@
-local player = game.Players.LocalPlayer
-local camera = game.Workspace.CurrentCamera
-
-local function lookDown()
-    
-    local lookDownCFrame = CFrame.new(camera.CFrame.Position) * CFrame.Angles(math.rad(-90), 0, 0)
-    camera.CFrame = lookDownCFrame
-end
-
-game:GetService("RunService").RenderStepped:Connect(lookDown)
-
 getgenv()._=
 "This script made by xk5ng | If you pay for this script you get scammed, this script is completely free ok https://discord.gg/msgabv2t9Q | https://discord.gg/stando"
 --[[To get started in "OWNER" put the username you want to control and in "STAND" put the StandUsername aka AltUsername.
@@ -26,16 +15,16 @@ getgenv().Accounts = {OWNER = '1NTERNETBLONDE', STAND = "Jessica459812"}
 getgenv().StandConfig = {
     --\\-- ! Main ! --//--
     ['Position'] = 'Back', --Position Of Stand [Back | Left | Right]
-    ['CrewID'] = 13935828, --Must Be In Group For It To Work
+    ['CrewID'] = 650212, --Must Be In Group For It To Work
     ['Attack'] = 'Heavy', --Heavy = Super Punch Light = Spam Punch [Heavy | Light]
     ['StandMode'] = 'TheWorld', --[Star Platinum : OverHeaven | Star Platinum: The World | Star Platinum, Za Warudo! | TheWorld | Cmoon | King Crimson | Killer Queen | MIH | D4C]
-    ['FlyMode'] = 'Heaven', --[Glide | FlyV1 | FlyV2 | Hover | Heaven ]
+    ['FlyMode'] = 'Glide', --[Glide | FlyV1 | FlyV2 | Hover | Heaven ]
     ['Pred'] = 0.34, --Prediction For Attack Or Targetting
     ['AutoPred'] = 0.23, --Prediction For Attack Or Targetting
     ['GunPred'] = 0.037, --Gun prediction [this is auto prediction sets]
     ['AutoPredic'] = false, --[true | false] Turn On Or Off Auto Prediction 
     ['AttackMode'] = 'Sky', --[Sky | Under] If [Sky] The Stand Will Attack Infront Of Target And If [Under] The Stand Will Attack In Underground
-    ['GunMode'] = 'Sky', --[Sky | Under]  The Stand Will Shooting Just Like What In The Settings
+    ['GunMode'] = 'Under', --[Sky | Under]  The Stand Will Shooting Just Like What In The Settings
     ['GunType'] = 'Lmg', --[Lmg | Aug]  The Stand Will Shooting Just Like What In The Settings
     ['Resolver'] = false, --[true | false] Turn On Or Off Resolver If Someone Using Anti Lock
     --\\-- ! Antilock ! --//--
@@ -51,13 +40,13 @@ getgenv().StandConfig = {
     ['SummonPoses'] = 'Pose1', --[false | Pose1 | Pose2 | Pose3]
     ['LowGraphics'] = true, --[true | false] Turns graphics down so your stand doesnt lag too much
     ['AntiStomp'] = true, --[true | false] The Stand Will Cannot Be Stomped Or Grabbed
-    ['CustomNAME'] = 'Master', --Custom Name Text Default Is [Master] Example Of it 'Im Here, Master'
-    ['Hidescreen'] = false, --[true | false] If [true] You WIll See White Blank Screen But The Performance Is Gonna Be Good]
+    ['CustomNAME'] = 'Barb', --Custom Name Text Default Is [Master] Example Of it 'Im Here, Master'
+    ['Hidescreen'] = true, --[true | false] If [true] You WIll See White Blank Screen But The Performance Is Gonna Be Good]
     ['ChatCmds'] = true, --[true | false] Chatted When You Use Some Command
-    ['MaskMode'] = 'Surgeon', --[Surgeon | Paintball | Skull | Pumpkin | Hockey | Ninja | Riot | Breathing] The Stand Will Buy The Mask You Selected
+    ['MaskMode'] = 'Breathing', --[Surgeon | Paintball | Skull | Pumpkin | Hockey | Ninja | Riot | Breathing] The Stand Will Buy The Mask You Selected
     ['AutoMask'] = true, --[true | false] Auto Buy Mask When The St    and Respawn
     ['FPSCAP'] = false, --[false | 'NUMBER'] This is so your main account gets the most fps (MAXED IS 60, SUGGEST 30 FPS ON STANDS)
-    ['Msg'] = 'BARBS UNITE!', --When You Say [/e msg] It Makes All The Alts Say That Message
+    ['Msg'] = 'Yare Yare Daze.', --When You Say [/e msg] It Makes All The Alts Say That Message
     ['Alt'] = false, --keep this false
     --//    ! Sounds !     \\--
     --\\ MUST HAVE BOOMBOX //--
@@ -66,26 +55,3 @@ getgenv().StandConfig = {
     ['SummonMusic'] = true, --[true | false]
     ['SummonMusicID'] = 'Default' -- Enter a Sound ID Put [Default] If You Would Like The Default Sound
 }loadstring(game:HttpGet("https://xk5ng.github.io/V4.6"))()
-
-Create("Silent!", function()
-    print("Stand will look down to make it better")
-    getgenv().Silent = {
-        Settings = {
-            Enabled = true,
-            AimPart = "UpperTorso",
-            Prediction = 0.159748979134,
-            WallCheck = true,
-            Visualize = true,
-            AutoPrediction = true,
-        },
-        FOV = {
-            Enabled = true,
-            Size = 50,
-            Filled = false,
-            Thickness = 0.66,
-            Transparency = 0.9,
-            Color = Color3.fromRGB(255,255,255),
-        },
-    }
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberPlaysYT/Aura-x/main/Source", true))()
-end)
