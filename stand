@@ -4,7 +4,7 @@ getgenv()._=
 
 // Example \\
 
-getgenv().Accounts = {OWNER = 'xk5ng', STAND = "4k7nz"} This is just the example dont put the username here ]]
+getgenv().Accounts = {OWNER = '1NTERNETBLONDE', STAND = "chrisloveo"} This is just the example dont put the username here ]]
 
 --\\-- Accounts --//--
 
@@ -41,12 +41,12 @@ getgenv().StandConfig = {
     ['LowGraphics'] = true, --[true | false] Turns graphics down so your stand doesnt lag too much
     ['AntiStomp'] = true, --[true | false] The Stand Will Cannot Be Stomped Or Grabbed
     ['CustomNAME'] = 'Barb', --Custom Name Text Default Is [Master] Example Of it 'Im Here, Master'
-    ['Hidescreen'] = false, --[true | false] If [true] You WIll See White Blank Screen But The Performance Is Gonna Be Good]
+    ['Hidescreen'] = true, --[true | false] If [true] You WIll See White Blank Screen But The Performance Is Gonna Be Good]
     ['ChatCmds'] = true, --[true | false] Chatted When You Use Some Command
     ['MaskMode'] = 'Breathing', --[Surgeon | Paintball | Skull | Pumpkin | Hockey | Ninja | Riot | Breathing] The Stand Will Buy The Mask You Selected
     ['AutoMask'] = true, --[true | false] Auto Buy Mask When The St    and Respawn
     ['FPSCAP'] = false, --[false | 'NUMBER'] This is so your main account gets the most fps (MAXED IS 60, SUGGEST 30 FPS ON STANDS)
-    ['Msg'] = 'Yare Yare Daze.', --When You Say [/e msg] It Makes All The Alts Say That Message
+    ['Msg'] = 'NICKI MINAJ IS THE QUEEN OF RAP.', --When You Say [/e msg] It Makes All The Alts Say That Message
     ['Alt'] = false, --keep this false
     --//    ! Sounds !     \\--
     --\\ MUST HAVE BOOMBOX //--
